@@ -1,0 +1,7 @@
+.DS_Store
+.build/
+Model/
+PhoneFocus.app/
+__pycache__/
+*.pyc
+*.zip
