@@ -69,17 +69,3 @@ build.sh                                 model download and app build
 
 The repository intentionally contains no downloaded model, compiled app, chat data, or Codex credentials.
 
-## Publish this source on GitHub
-
-Create an empty repository on GitHub, then run these commands from the `PhoneFocus` folder. Replace the remote URL with your repository's URL.
-
-```sh
-git init
-git add .
-git commit -m "Initial PhoneFocus"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/PhoneFocus.git
-git push -u origin main
-```
-
-Run `git status` before pushing to confirm that `Model/` and `PhoneFocus.app/` are absent. Choose a license separately if you plan to publish the repository publicly.
